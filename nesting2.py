@@ -54,7 +54,8 @@ Ilorin= {
     "population:""10 millions",
     "fact:""Yoruba land"}
 
-madina= {
+
+madina = {
     "country:""Mecca",
     "population:" "3 millions",
     "fact:""land of prophet (SAW)"}
