@@ -1,0 +1,7 @@
+while True:
+    name = input("write your name:\n")
+    Input =input("what is your favourite palce of vacation?:\n")
+    s_Q = input("If you could visit one place in the world, where would you go?: \n")
+    dictionary = {}
+    record = dictionary
+    

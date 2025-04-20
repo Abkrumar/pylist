@@ -1,0 +1,12 @@
+sandwich_order =["tuna", "luna", "Fura", "sobo"]
+finishe_sanwich = []
+while sandwich_order:
+    curent_sandwich= sandwich_order.pop()
+    finishe_sanwich.append(curent_sandwich)
+    print(
+        f'here are the list of ordered sandwich{
+            finishe_sanwich}')
+copy = ["tuna", "luna","patrami", "Fura", "sobo","patrami", "patrami"]  
+while "patrami" in copy:
+    copy.remove("patrami")
+    print (copy)

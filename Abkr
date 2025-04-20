@@ -1,0 +1,14 @@
+user_name = "@Abubakar"
+pass_word = "Abkr@6789"
+
+while True:
+    user_input_1= input("input your user name")
+    welcome_mesage= f"welcom back{user_input_1}"
+    if  user_input_1== user_name:
+        print("please enter your corect password:")
+        user_input_2 = input("input your pass_word")
+    elif user_input_2== pass_word:
+        print(welcome_mesage)
+    else : 
+        print(' invalid user name')
+        break
