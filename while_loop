@@ -1,0 +1,24 @@
+
+while True:
+    use_input = input(
+        "please enter a pizza topping:\n"
+    )
+    message = (
+        f'i will add {use_input} to their topping pizza'
+    )
+    if use_input == "quit":
+        break
+    else:
+        print(message)
+while True:
+    user_input = int(input("input yor age:\n"))
+    if int(user_input) <= 3:
+        print(" you will enter free off charge")
+    elif int(user_input) <= 12:
+        print("yor enterance fee is $10")
+    elif int(user_input) > 12:
+        print("your enterance fee is $15")
+    if int(user_input) == "Exit":
+        break
+
+# This is the main branch
